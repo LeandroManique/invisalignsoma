@@ -22,14 +22,15 @@ export const Header: React.FC = () => {
     <header className="fixed top-0 w-full bg-soft-50/90 backdrop-blur-md z-40 border-b border-graphite-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-24 flex items-center justify-between">
         <div className="flex items-center gap-3">
-          <div className="w-10 h-10 bg-clinical-500 rounded-xl flex items-center justify-center text-white font-bold shadow-sm">S</div>
-          <span className="text-xl font-semibold text-graphite-800 tracking-tight">SOMA <span className="font-light text-graphite-400">Ortodontia</span></span>
+          <img src="/logo.png" alt="SOMA Ortodontia" className="h-12 md:h-14 w-auto object-contain" />
         </div>
         
-        {/* Desktop Nav - Removed Como Funciona */}
-        <div className="hidden md:block">
-           {/* Placeholder if we add more links later, currently empty nav removed */}
-        </div>
+          {/* Desktop Nav */}
+          <div className="hidden md:flex items-center gap-6">
+            <a href="#processo" className="text-sm text-graphite-600 hover:text-clinical-600">Como Funciona</a>
+            <a href="#agendar" className="text-sm text-graphite-600 hover:text-clinical-600">Unidades</a>
+            <a href="#faq" className="text-sm text-graphite-600 hover:text-clinical-600">Perguntas</a>
+          </div>
 
         <a 
           href="#agendar"
@@ -77,7 +78,7 @@ export const Hero: React.FC = () => (
             Tecnologia iTero 5D
           </div>
           <h1 className="text-4xl lg:text-6xl font-semibold text-graphite-800 tracking-tight leading-[1.1] mb-8">
-            {SITE_CONTENT.hero.headline}
+            Invisalign SOMA. Seu sorriso com tecnologia e conforto.
           </h1>
           <p className="text-lg lg:text-xl text-graphite-500 mb-10 leading-relaxed max-w-lg font-light">
             {SITE_CONTENT.hero.subtext}
@@ -94,16 +95,16 @@ export const Hero: React.FC = () => (
         </div>
         <div className="relative pl-4 lg:pl-0">
             {/* Image Container with Soft Borders */}
-            <div className="relative rounded-[2rem] overflow-hidden shadow-soft border border-white">
-                 <img 
-                    src="https://picsum.photos/800/800?grayscale" 
-                    alt="Sorriso confiante" 
-                    className="w-full h-full object-cover scale-105 hover:scale-100 transition-transform duration-700"
-                 />
-                 <div className="absolute bottom-0 left-0 right-0 bg-white/95 backdrop-blur-sm p-8 border-t border-graphite-100">
-                    <p className="text-graphite-800 font-medium">Dr. Pedro Hammes</p>
-                    <p className="text-clinical-500 text-sm">Especialista em Invisalign</p>
-                 </div>
+            <div className="relative rounded-[2rem] overflow-hidden shadow-soft border border-white aspect-[3/4]">
+                <img 
+                  src="/rebeca_andrade.png" 
+                  alt="Rebeca Andrade" 
+                  className="w-full h-full object-cover object-center scale-105 hover:scale-100 transition-transform duration-700"
+                />
+                  <div className="absolute bottom-0 left-0 right-0 bg-white/95 backdrop-blur-sm p-8 border-t border-graphite-100">
+                    <p className="text-graphite-800 font-medium">Rebeca Andrade</p>
+                    <p className="text-clinical-500 text-sm">a maior medalhista olímpica da história do Brasil</p>
+                  </div>
             </div>
             {/* Subtle decorative element instead of blob */}
             <div className="absolute -z-10 top-10 -right-10 w-full h-full border border-clinical-200 rounded-[2.5rem]"></div>
@@ -143,17 +144,17 @@ export const DrProfile: React.FC = () => (
   <section className="py-24 bg-soft-50 border-t border-graphite-100">
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div className="grid md:grid-cols-12 gap-12 items-center">
-        {/* Image Side */}
-        <div className="md:col-span-5 relative order-2 md:order-1">
-          <div className="relative rounded-[2rem] overflow-hidden shadow-soft border border-white aspect-[3/4]">
+          {/* Image Side */}
+          <div className="md:col-span-5 relative order-2 md:order-1">
+           <div className="relative rounded-[2rem] overflow-hidden shadow-soft border border-white aspect-[3/4]">
              <img 
-                src="https://picsum.photos/600/800?grayscale" 
-                alt="Dr. Pedro Hammes" 
-                className="w-full h-full object-cover"
+               src="/dr_pedro.png" 
+               alt="Dr. Pedro Hammes" 
+               className="w-full h-full object-cover object-center scale-105 hover:scale-100 transition-transform duration-700"
              />
+           </div>
+           <div className="absolute -z-10 bottom-6 -left-6 w-full h-full border border-clinical-200 rounded-[2.5rem]"></div>
           </div>
-          <div className="absolute -z-10 bottom-6 -left-6 w-full h-full border border-clinical-200 rounded-[2.5rem]"></div>
-        </div>
 
         {/* Text Side */}
         <div className="md:col-span-7 order-1 md:order-2">
@@ -306,8 +307,8 @@ export const Footer: React.FC = () => (
       <div className="grid md:grid-cols-2 gap-8 items-center mb-12">
         <div>
           <div className="flex items-center gap-3 mb-4">
-             <div className="w-8 h-8 bg-clinical-500 rounded-lg flex items-center justify-center text-white font-bold text-sm">S</div>
-             <span className="font-semibold text-graphite-800">SOMA Ortodontia</span>
+             <img src="/logo.png" alt="SOMA Ortodontia" className="h-10 w-auto object-contain" />
+             <span className="sr-only">SOMA Ortodontia</span>
           </div>
           <p className="text-graphite-500 text-sm max-w-sm font-light leading-relaxed">
             {SITE_CONTENT.footer.text}

@@ -9,6 +9,7 @@ import {
   Footer 
 } from './components/Sections';
 import { ChatWidget } from './components/ChatWidget';
+import FAQ from './components/FAQ';
 
 const App: React.FC = () => {
   return (
@@ -20,6 +21,7 @@ const App: React.FC = () => {
         <DrProfile />
         <Process />
         <Locations />
+        <FAQ />
       </main>
       <Footer />
       <ChatWidget />
