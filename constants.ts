@@ -2,25 +2,25 @@ import { FAQItem, StepItem } from './types';
 
 export const SITE_CONTENT = {
   hero: {
-    headline: "Aparelhos invis├¡veis com tecnologia, conforto e um planejamento que respeita o seu caso.",
-    subtext: "Na SOMA, o tratamento com Invisalign ├® conduzido pelo ortodontista Dr. Pedro Hammes, especialista em alinhadores, com foco em est├®tica, fun├º├úo e previsibilidade, desde o primeiro dia.",
-    cta: "Agendar consulta com simula├º├úo digital iTero"
+    headline: "Aparelhos invisíveis com tecnologia, conforto e um planejamento que respeita o seu caso.",
+    subtext: "Na SOMA, o tratamento com Invisalign é conduzido pelo ortodontista Dr. Pedro Hammes, especialista em alinhadores, com foco em estética, função e previsibilidade, desde o primeiro dia.",
+    cta: "Agendar consulta com simulação digital iTero"
   },
   drPedroProfile: {
     name: "Dr. Pedro Hammes",
     role: "Ortodontia | Invisalign Doctor",
     cro: "CRO/RS: 14.778",
     titles: [
-      "Gradua├º├úo em Odontologia",
-      "Especializa├º├úo em Ortodontia",
+      "Graduação em Odontologia",
+      "Especialização em Ortodontia",
       "Invisalign Doctor"
     ],
-    description: "Especialista em Ortodontia, o Dr. Pedro alia precis├úo t├®cnica a uma escuta pr├│xima e acess├¡vel. Seu trabalho ├® pautado por detalhismo, clareza nas explica├º├Áes e compromisso em construir cada tratamento em parceria com o paciente.\n\nNa pr├ítica cl├¡nica, utiliza recursos digitais como o escaneamento intraoral para planejar e acompanhar os movimentos ortod├┤nticos com maior previsibilidade e conforto. Essa abordagem torna poss├¡vel conduzir tratamentos com alinhadores transparentes de forma criteriosa, refor├ºando a filosofia da SOMA de unir tecnologia respons├ível, ├®tica e cuidado humano.\n\nMais do que alinhar dentes, o Dr. Pedro entende a ortodontia como um processo de transforma├º├úo que impacta est├®tica, bem-estar e fun├º├úo, sempre com naturalidade e respeito ao tempo de cada paciente."
+    description: "Especialista em Ortodontia, o Dr. Pedro alia precisão técnica a uma escuta próxima e acessível. Seu trabalho é pautado por detalhismo, clareza nas explicações e compromisso em construir cada tratamento em parceria com o paciente.\n\nNa prática clínica, utiliza recursos digitais como o escaneamento intraoral para planejar e acompanhar os movimentos ortodônticos com maior previsibilidade e conforto. Essa abordagem torna possível conduzir tratamentos com alinhadores transparentes de forma criteriosa, reforçando a filosofia da SOMA de unir tecnologia responsável, ética e cuidado humano.\n\nMais do que alinhar dentes, o Dr. Pedro entende a ortodontia como um processo de transformação que impacta estética, bem-estar e função, sempre com naturalidade e respeito ao tempo de cada paciente."
   },
   locations: [
     {
       city: "Lajeado",
-      address: "Av. Pira├¡, 300 - sala 1010, Bairro S├úo Crist├│v├úo",
+      address: "Av. Piraí, 300 - sala 1010, Bairro São Cristóvão",
       phone: "(51) 3011-1231",
       whatsapp: "555199775288",
       whatsappDisplay: "(51) 9977-5288"
@@ -33,8 +33,8 @@ export const SITE_CONTENT = {
       whatsappDisplay: "(51) 9842-3638"
     },
     {
-      city: "Capit├úo",
-      address: "Rua 20 de Mar├ºo, 160 - sala 1 - Bairro Centro",
+      city: "Capitão",
+      address: "Rua 20 de Março, 160 - sala 1 - Bairro Centro",
       phone: "(51) 3758-1231",
       whatsapp: "555181519915",
       whatsappDisplay: "(51) 8151-9915"
@@ -42,10 +42,10 @@ export const SITE_CONTENT = {
   ],
   whyInvisalign: {
     title: "Por Que Pessoas Escolhem Invisalign",
-    description: "Alinhar o sorriso n├úo ├® apenas ÔÇ£est├®ticaÔÇØ. ├ë poder sorrir com confian├ºa, melhorar a mordida, evitar desgastes, aliviar tens├Áes musculares e conquistar harmonia facial, tudo sem fios, sem br├íquetes e sem impacto na rotina.",
+    description: "Alinhar o sorriso não é apenas “estética”. É poder sorrir com confiança, melhorar a mordida, evitar desgastes, aliviar tensões musculares e conquistar harmonia facial, tudo sem fios, sem bráquetes e sem impacto na rotina.",
     benefits: [
       "Conforto absoluto",
-      "Discri├º├úo total",
+      "Discrição total",
       "Higiene facilitada",
       "Previsibilidade de resultados",
       "Resultado natural",
@@ -57,90 +57,90 @@ export const SITE_CONTENT = {
     tech: {
       title: "Tecnologia iTero desde a primeira consulta",
       features: [
-        "Visualizar sua boca em alta defini├º├úo",
+        "Visualizar sua boca em alta definição",
         "Prever movimentos e possibilidades",
         "Entender riscos e limites reais",
-        "Ver simula├º├úo aproximada do resultado",
-        "Eliminar moldes tradicionais desconfort├íveis"
+        "Ver simulação aproximada do resultado",
+        "Eliminar moldes tradicionais desconfortáveis"
       ]
     },
     planning: {
-      title: "Planejamento individual, n├úo gen├®rico",
-      text: "O plano de alinhamento ├® constru├¡do considerando: sua mordida, sua anatomia dent├íria, seus h├íbitos, seus objetivos e sua rotina."
+      title: "Planejamento individual, não genérico",
+      text: "O plano de alinhamento é construído considerando: sua mordida, sua anatomia dentária, seus hábitos, seus objetivos e sua rotina."
     }
   },
   processSection: {
     title: "Como funciona o tratamento com Invisalign",
-    intro: "Tecnologia que mostra. Planejamento que esclarece. Acompanhamento que d├í seguran├ºa.\nTudo conduzido pelo Dr. Pedro Hammes.\n\nO Invisalign ├® moderno porque ├® transparente por fora e transparente por dentro.\nNa SOMA, voc├¬ entende o tratamento desde o primeiro minuto. Sem promessas soltas, sem termos dif├¡ceis, sem surpresas.\n\nAqui est├í o passo a passo real.",
-    outro: "Um processo claro, seguro e confort├ível do come├ºo ao fim.\n\nO tratamento com Invisalign na SOMA ├® pensado para voc├¬: voc├¬ entende cada etapa, v├¬ seu caso em 3D, participa do planejamento, recebe acompanhamento pr├│ximo e tem previsibilidade real.\n\nTudo conduzido com a calma, precis├úo e cuidado do Dr. Pedro Hammes.",
+    intro: "Tecnologia que mostra. Planejamento que esclarece. Acompanhamento que dá segurança.\nTudo conduzido pelo Dr. Pedro Hammes.\n\nO Invisalign é moderno porque é transparente por fora e transparente por dentro.\nNa SOMA, você entende o tratamento desde o primeiro minuto. Sem promessas soltas, sem termos difíceis, sem surpresas.\n\nAqui está o passo a passo real.",
+    outro: "Um processo claro, seguro e confortável do começo ao fim.\n\nO tratamento com Invisalign na SOMA é pensado para você: você entende cada etapa, vê seu caso em 3D, participa do planejamento, recebe acompanhamento próximo e tem previsibilidade real.\n\nTudo conduzido com a calma, precisão e cuidado do Dr. Pedro Hammes.",
     steps: [
       {
         number: 1,
-        title: "Avalia├º├úo com escaneamento digital iTero",
-        description: "A experi├¬ncia come├ºa com um escaneamento 3D feito pelo iTero, a tecnologia usada nos melhores consult├│rios do mundo. Sem moldes. Sem n├íusea. Sem espera. O escaneamento ├® r├ípido, confort├ível e revela exatamente o que est├í acontecendo na sua boca.\n\nO iTero permite que voc├¬ veja:",
+        title: "Avaliação com escaneamento digital iTero",
+        description: "A experiência começa com um escaneamento 3D feito pelo iTero, a tecnologia usada nos melhores consultórios do mundo. Sem moldes. Sem náusea. Sem espera. O escaneamento é rápido, confortável e revela exatamente o que está acontecendo na sua boca.\n\nO iTero permite que você veja:",
         bullets: [
-          "Poss├¡veis movimentos dos dentes",
-          "├üreas que precisam de corre├º├úo",
-          "Diferen├ºas entre o que ├® est├®tico e o que ├® funcional",
-          "O que o Invisalign pode ou n├úo corrigir (uma das maiores d├║vidas dos pacientes)"
+          "Possíveis movimentos dos dentes",
+          "Áreas que precisam de correção",
+          "Diferenças entre o que é estético e o que é funcional",
+          "O que o Invisalign pode ou não corrigir (uma das maiores dúvidas dos pacientes)"
         ],
-        afterBullets: "Por que isso importa?\nPorque voc├¬ j├í come├ºa entendendo e vendo o que precisa ser feito. Isso ilumina o caminho e reduz ansiedade, algo essencial para uma decis├úo segura."
+        afterBullets: "Por que isso importa?\nPorque você já começa entendendo e vendo o que precisa ser feito. Isso ilumina o caminho e reduz ansiedade, algo essencial para uma decisão segura."
       },
       {
         number: 2,
-        title: "Simula├º├úo do sorriso e explica├º├úo do seu caso",
-        description: "Com o escaneamento em m├úos, o Dr. Pedro mostra uma simula├º├úo aproximada de como seus dentes podem se mover ao longo do tratamento. Esse ├® o momento de clareza. Voc├¬ v├¬. Voc├¬ entende. Voc├¬ participa da decis├úo.\n\nE se voc├¬ for uma pessoa mais objetiva, o Dr. Pedro resume. Se voc├¬ gosta de detalhes, ele explica tudo. Se voc├¬ precisa de seguran├ºa, ele refor├ºa cada etapa.",
+        title: "Simulação do sorriso e explicação do seu caso",
+        description: "Com o escaneamento em mãos, o Dr. Pedro mostra uma simulação aproximada de como seus dentes podem se mover ao longo do tratamento. Esse é o momento de clareza. Você vê. Você entende. Você participa da decisão.\n\nE se você for uma pessoa mais objetiva, o Dr. Pedro resume. Se você gosta de detalhes, ele explica tudo. Se você precisa de segurança, ele reforça cada etapa.",
         bullets: [
           "Quais dentes precisam ser alinhados",
-          "Por que isso ├® importante para a est├®tica e a mordida",
-          "Quanto tempo, em m├®dia, seu caso exige",
-          "Quais movimentos s├úo poss├¡veis e quais n├úo s├úo",
-          "O n├¡vel de complexidade do seu alinhamento"
+          "Por que isso é importante para a estética e a mordida",
+          "Quanto tempo, em média, seu caso exige",
+          "Quais movimentos são possíveis e quais não são",
+          "O nível de complexidade do seu alinhamento"
         ]
       },
       {
         number: 3,
         title: "Planejamento personalizado",
-        description: "O Invisalign n├úo ├® uma sequ├¬ncia de ÔÇ£plaquinhasÔÇØ. ├ë um plano t├®cnico de movimenta├º├úo dent├íria. Cada alinhador ├® calculado para que o movimento seja controlado, seguro e confort├ível evitando excessos, dor desnecess├íria e resultados inst├íveis.",
+        description: "O Invisalign não é uma sequência de “plaquinhas”. É um plano técnico de movimentação dentária. Cada alinhador é calculado para que o movimento seja controlado, seguro e confortável evitando excessos, dor desnecessária e resultados instáveis.",
         bullets: [
           "Sua anatomia",
           "Sua mordida",
-          "Seu padr├úo muscular",
+          "Seu padrão muscular",
           "Sua rotina",
-          "Sua est├®tica natural",
+          "Sua estética natural",
           "Seus objetivos"
         ]
       },
       {
         number: 4,
-        title: "Produ├º├úo dos alinhadores",
-        description: "Ap├│s o planejamento, seus alinhadores s├úo produzidos com a precis├úo do sistema digital da Align. Sem nada gen├®rico. Nada padr├úo. Cada alinhador ├® um micro-passinho pensado para chegar ao resultado final.",
+        title: "Produção dos alinhadores",
+        description: "Após o planejamento, seus alinhadores são produzidos com a precisão do sistema digital da Align. Sem nada genérico. Nada padrão. Cada alinhador é um micro-passinho pensado para chegar ao resultado final.",
         bullets: [
           "Feitos sob medida",
           "Sequenciais",
-          "Confort├íveis",
+          "Confortáveis",
           "Discretos",
-          "F├íceis de limpar"
+          "Fáceis de limpar"
         ]
       },
       {
         number: 5,
-        title: "Uso di├írio com suporte real",
-        description: "Durante o tratamento, voc├¬ usa seus alinhadores conforme orienta├º├úo e passa pelos acompanhamentos com o Dr. Pedro. Acompanhamento pr├│ximo = resultado previs├¡vel. Voc├¬ nunca fica sem saber o que est├í acontecendo.",
+        title: "Uso diário com suporte real",
+        description: "Durante o tratamento, você usa seus alinhadores conforme orientação e passa pelos acompanhamentos com o Dr. Pedro. Acompanhamento próximo = resultado previsível. Você nunca fica sem saber o que está acontecendo.",
         bullets: [
-          "Corre├º├úo de eventuais desvios",
-          "Ajustes quando necess├írio",
-          "Verifica├º├úo da estabilidade",
-          "Orienta├º├úo clara sobre o que fazer se perder ou danificar um alinhador"
+          "Correção de eventuais desvios",
+          "Ajustes quando necessário",
+          "Verificação da estabilidade",
+          "Orientação clara sobre o que fazer se perder ou danificar um alinhador"
         ]
       },
       {
         number: 6,
-        title: "Finaliza├º├úo e reten├º├úo",
-        description: "Quando o alinhamento chega ao resultado final, inicia-se a fase de reten├º├úo, essencial para manter o sorriso est├ível ao longo dos anos. Isso responde outra d├║vida frequente dos pacientes: ÔÇ£Vou precisar usar conten├º├úo depois?ÔÇØ Sim, e voc├¬ ser├í orientado com clareza.",
+        title: "Finalização e retenção",
+        description: "Quando o alinhamento chega ao resultado final, inicia-se a fase de retenção, essencial para manter o sorriso estável ao longo dos anos. Isso responde outra dúvida frequente dos pacientes: “Vou precisar usar contenção depois?” Sim, e você será orientado com clareza.",
         bullets: [
-          "Orienta├º├úo personalizada",
-          "Reten├º├úo feita sob medida",
+          "Orientação personalizada",
+          "Retenção feita sob medida",
           "Acompanhamento final"
         ]
       }
@@ -148,76 +148,76 @@ export const SITE_CONTENT = {
   },
   faq: [
     {
-      question: "D├│i?",
-      answer: "Pode gerar leve press├úo nos primeiros dias. ├ë sinal de movimento controlado."
+      question: "Dói?",
+      answer: "Pode gerar leve pressão nos primeiros dias. É sinal de movimento controlado."
     },
     {
       question: "Quanto tempo dura o tratamento?",
-      answer: "Depende do caso. Na consulta, ap├│s o iTero, o Dr. Pedro estima com precis├úo."
+      answer: "Depende do caso. Na consulta, após o iTero, o Dr. Pedro estima com precisão."
     },
     {
       question: "Posso tirar para comer?",
-      answer: "Sim. Essa ├® uma das maiores vantagens."
+      answer: "Sim. Essa é uma das maiores vantagens."
     },
     {
       question: "Serve para qualquer caso?",
-      answer: "Nem sempre. Por isso o diagn├│stico ├® essencial."
+      answer: "Nem sempre. Por isso o diagnóstico é essencial."
     },
     {
-      question: "Por que Invisalign e n├úo outras marcas?",
-      answer: "Mais tecnologia, mais precis├úo e maior previsibilidade no planejamento."
+      question: "Por que Invisalign e não outras marcas?",
+      answer: "Mais tecnologia, mais precisão e maior previsibilidade no planejamento."
     }
   ] as FAQItem[],
   footer: {
-    text: "Seu sorriso merece tecnologia, aten├º├úo e responsabilidade. Na SOMA, voc├¬ tem acompanhamento real, previsibilidade e um tratamento conduzido por um especialista que cuida do processo do in├¡cio ao fim."
+    text: "Seu sorriso merece tecnologia, atenção e responsabilidade. Na SOMA, você tem acompanhamento real, previsibilidade e um tratamento conduzido por um especialista que cuida do processo do início ao fim."
   }
 };
 
 // System instruction for Liv.ia
 export const LIVIA_SYSTEM_INSTRUCTION = `
-VOC├è ├ë LIV.IA, A ASSISTENTE VIRTUAL DO DR. PEDRO HAMMES (SOMA SA├ÜDE INTEGRADA).
+VOCÊ É LIV.IA, A ASSISTENTE VIRTUAL DO DR. PEDRO HAMMES (SOMA SAÚDE INTEGRADA).
 
-DADOS CR├ìTICOS (CONSULTE PARA LINKS E ENDERE├çOS):
+DADOS CRÍTICOS (CONSULTE PARA LINKS E ENDEREÇOS):
 ${JSON.stringify(SITE_CONTENT.locations)}
 
 ---
 
 SUA PERSONALIDADE E DIRETRIZES DE COMPORTAMENTO:
-1.  **Identidade**: Voc├¬ ├® inteligente, emp├ítica e possui total sabedoria sem├óntica. Voc├¬ ouve ativamente o paciente.
+1.  **Identidade**: Você é inteligente, empática e possui total sabedoria semântica. Você ouve ativamente o paciente.
 2.  **Mensagens**: SEMPRE use mensagens curtas, diretas e naturais. Evite blocos de texto longos.
-3.  **Protocolo de Nome (MANDAT├ôRIO)**:
-    *   Sempre pergunte o nome da pessoa no in├¡cio da intera├º├úo de forma educada.
-    *   Uma vez que o usu├írio diga o nome, USE-O nas mensagens seguintes para criar conex├úo.
-4.  **N├úo Use Scripts**: Seja natural e fluida.
+3.  **Protocolo de Nome (MANDATÓRIO)**:
+    *   Sempre pergunte o nome da pessoa no início da interação de forma educada.
+    *   Uma vez que o usuário diga o nome, USE-O nas mensagens seguintes para criar conexão.
+4.  **Não Use Scripts**: Seja natural e fluida.
 5.  **Metodologia SPIN SELLING**:
-    Use esta t├®cnica sutilmente para conduzir ao agendamento, sem parecer vendedora agressiva:
-    *   *Situa├º├úo*: Entenda como est├í o sorriso/dentes da pessoa hoje.
-    *   *Problema*: Descubra o que incomoda (est├®tica, dor, mordida).
-    *   *Implica├º├úo*: Mostre empatia sobre como isso afeta a vida dela.
-    *   *Necessidade de Solu├º├úo*: Apresente o Dr. Pedro e a tecnologia Invisalign como a solu├º├úo segura.
-6.  **Convers├úo (Objetivo Final)**:
+    Use esta técnica sutilmente para conduzir ao agendamento, sem parecer vendedora agressiva:
+    *   *Situação*: Entenda como está o sorriso/dentes da pessoa hoje.
+    *   *Problema*: Descubra o que incomoda (estética, dor, mordida).
+    *   *Implicação*: Mostre empatia sobre como isso afeta a vida dela.
+    *   *Necessidade de Solução*: Apresente o Dr. Pedro e a tecnologia Invisalign como a solução segura.
+6.  **Conversão (Objetivo Final)**:
     *   Sempre que pertinente, leve ao agendamento.
-    *   Pergunte qual cidade fica melhor: **Lajeado, Taquari ou Capit├úo**.
-    *   **IMPORTANTE SOBRE LINKS**: Quando fornecer o WhatsApp, forne├ºa o link no formato Markdown: [Agendar em Lajeado](https://wa.me/555199775288). N├âO mostre a URL crua. Use o texto do link para indicar a a├º├úo (ex: "Chamar no WhatsApp Lajeado").
+    *   Pergunte qual cidade fica melhor: **Lajeado, Taquari ou Capitão**.
+    *   **IMPORTANTE SOBRE LINKS**: Quando fornecer o WhatsApp, forneça o link no formato Markdown: [Agendar em Lajeado](https://wa.me/555199775288). NÃO mostre a URL crua. Use o texto do link para indicar a ação (ex: "Chamar no WhatsApp Lajeado").
 
 ---
 
-SUA BASE DE CONHECIMENTO T├ëCNICO E JUR├ìDICO (DOCUMENTO MESTRE):
+SUA BASE DE CONHECIMENTO TÉCNICO E JURÍDICO (DOCUMENTO MESTRE):
 
 I. CREDENCIAIS E FOCO PROFISSIONAL DO DR. PEDRO HAMMES
-O Dr. Pedro Hammes ├® um Especialista em Ortodontia e um Invisalign Doctor (CRO/RS: 14.778).
-A filosofia da SOMA e do Dr. Pedro une precis├úo t├®cnica, escuta ativa e tecnologia respons├ível. Ele utiliza escaneamento intraoral (iTero) para planejamento. O foco ├® "Cuidado al├®m do sorriso", garantindo transpar├¬ncia e previsibilidade.
+O Dr. Pedro Hammes é um Especialista em Ortodontia e um Invisalign Doctor (CRO/RS: 14.778).
+A filosofia da SOMA e do Dr. Pedro une precisão técnica, escuta ativa e tecnologia responsável. Ele utiliza escaneamento intraoral (iTero) para planejamento. O foco é "Cuidado além do sorriso", garantindo transparência e previsibilidade.
 
-II. DETALHAMENTO T├ëCNICO INVISALIGN
-*   **SmartTrack┬«**: Tecnologia exclusiva que torna o tratamento mais previs├¡vel e confort├ível.
-*   **Velocidade**: Pode ser mais r├ípido (comparado a trocas quinzenais).
-*   **P├║blico**: Crian├ºas (Invisalign First), Adolescentes (Invisalign Teen) e Adultos.
+II. DETALHAMENTO TÉCNICO INVISALIGN
+*   **SmartTrack®**: Tecnologia exclusiva que torna o tratamento mais previsível e confortável.
+*   **Velocidade**: Pode ser mais rápido (comparado a trocas quinzenais).
+*   **Público**: Crianças (Invisalign First), Adolescentes (Invisalign Teen) e Adultos.
 
-III. BLINDAGEM JUR├ìDICA E PREVISIBILIDADE (SIGA ESTRITAMENTE):
-*   **Dura├º├úo do Tratamento**: NUNCA prometa um tempo exato. Pode mencionar "casos m├®dios em 6 meses", mas reforce que **apenas o Dr. Pedro pode determinar ap├│s avalia├º├úo**.
-*   **Pre├ºo**: NUNCA forne├ºa valores. Diga que o investimento varia conforme a complexidade. Mencione o "Invisalign Pay", mas sem n├║meros.
+III. BLINDAGEM JURÍDICA E PREVISIBILIDADE (SIGA ESTRITAMENTE):
+*   **Duração do Tratamento**: NUNCA prometa um tempo exato. Pode mencionar "casos médios em 6 meses", mas reforce que **apenas o Dr. Pedro pode determinar após avaliação**.
+*   **Preço**: NUNCA forneça valores. Diga que o investimento varia conforme a complexidade. Mencione o "Invisalign Pay", mas sem números.
 *   **Resultados**: Reforce que variam de paciente para paciente.
 
 IV. Analogia para usar:
-O Dr. Pedro ├® como um "arquiteto digital de sorrisos". O Invisalign ├® o material de constru├º├úo premium, mas ├® o arquiteto (Dr. Pedro) quem garante a seguran├ºa, a est├®tica e o resultado da obra.
+O Dr. Pedro é como um "arquiteto digital de sorrisos". O Invisalign é o material de construção premium, mas é o arquiteto (Dr. Pedro) quem garante a segurança, a estética e o resultado da obra.
 `;
