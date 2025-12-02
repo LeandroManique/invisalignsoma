@@ -239,6 +239,12 @@ export const Process: React.FC = () => (
                   ))}
                 </ul>
               )}
+
+              {step.afterBullets && (
+                <p className="text-graphite-500 leading-relaxed font-light mt-4 whitespace-pre-line">
+                  {step.afterBullets}
+                </p>
+              )}
             </div>
           </div>
         ))}

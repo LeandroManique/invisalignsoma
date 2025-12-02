@@ -10,6 +10,7 @@ export interface StepItem {
   title: string;
   description: string;
   bullets?: string[];
+  afterBullets?: string;
 }
 
 export interface BenefitItem {
